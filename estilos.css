@@ -1,0 +1,127 @@
+/* ESTILOS GENERALES DE LA PÁGINA */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F3E5F5;
+    margin: 0;
+    padding: 30px;
+    color: #333333;
+}
+
+/* CONTENEDOR PRINCIPAL */
+
+.contenedor {
+    width: 90%;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+/* TÍTULO PRINCIPAL - SELECTOR ID */
+
+#titulo-formulario {
+    color: #6A1B9A;
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+/* DESCRIPCIÓN */
+
+.descripcion {
+    text-align: center;
+    color: #777777;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+/* GRUPOS DE CAMPOS */
+
+.grupo-campo {
+    margin-bottom: 18px;
+}
+
+/* ETIQUETAS */
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 7px;
+    color: #4A235A;
+}
+
+/* CAMPOS DE TEXTO */
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #D1B3E0;
+    border-radius: 7px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+/* ÁREA DE DESCRIPCIÓN */
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+/* GRUPO DE INTERESES */
+
+.grupo-intereses {
+    border: 1px solid #D1B3E0;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 22px;
+}
+
+.grupo-intereses legend {
+    color: #6A1B9A;
+    font-weight: bold;
+}
+
+/* OPCIONES DE INTERESES */
+
+.opcion {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.opcion label {
+    margin: 0;
+    font-weight: normal;
+}
+
+.opcion input {
+    accent-color: #8E44AD;
+}
+
+/* BOTÓN DE REGISTRO */
+
+button {
+    width: 100%;
+    padding: 13px;
+    background-color: #8E44AD;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* EFECTO AL PASAR EL CURSOR */
+
+button:hover {
+    background-color: #6A1B9A;
+}
